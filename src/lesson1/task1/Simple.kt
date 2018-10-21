@@ -89,6 +89,10 @@ fun angleInRadian(deg: Int, min: Int, sec: Int): Double =
 fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double =
         sqrt(sqr(x1 - x2) + sqr(y1 - y2))
 
+
+fun fourthDigit(number: Int): Int =
+        (number / 1000) % 10
+
 /**
  * Простая
  *
